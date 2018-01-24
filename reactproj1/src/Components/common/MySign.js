@@ -10,7 +10,7 @@ export default class MySign extends Component {
     }
     componentDidMount() {        
         console.log("componentDidMount");
-        document.querySelector("h3").style.color='red';
+        //document.querySelector("h3").style.color='red';
     }
     componentWillUnmount() {        
         console.log("componentWillUnmount");
